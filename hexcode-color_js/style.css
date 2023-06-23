@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex-colors {
+    text-align: center;
+}
+
+.hex-colors h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    animation: colorchange 10s infinite alternate-reverse;
+}
+
+.hex-colors h2{
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+
+/* animation of the h1 text based on the above animation operation */
+@keyframes colorchange{
+    0%{
+        color: red;
+    }
+    20%{
+        color: orange;
+    }
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: green;
+    }
+    80%{
+        color: blue;
+    }
+    100%{
+        color: violet;
+    }
+}
+
+/* changes font size on a device with a width less than 480 --for responsive design */
+@media(max-width:480px){
+    .hex-colors h1{
+        font-size: 1.5rem;
+    }
+
+    .hex-colors h2{
+        font-size: 1.5rem;
+    }
+}
