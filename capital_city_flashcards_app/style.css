@@ -1,0 +1,55 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: azure;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.container{
+    border: 1px solid rgb(117, 201, 228);;
+    padding-bottom: 100px;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(117, 201, 228);;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.726);
+}
+.term{
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.726);
+}
+.definition{
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.726);
+}
+.button{
+    text-align: center;
+    margin-top: 100px;
+}
+button{
+    background-color: azure;
+    color: rgb(0, 0, 0,);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.726);
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.1);
+}
